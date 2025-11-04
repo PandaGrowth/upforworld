@@ -1,0 +1,71 @@
+[
+  {
+    "id": "photo-001",
+    "src": "/images/photos/offline-workshop.jpg",
+    "w": 1600,
+    "h": 1067,
+    "tags": ["线下活动", "成员"],
+    "caption": "深圳线下写作训练营 · Hook 拆解环节",
+    "takenAt": "2025-03-16"
+  },
+  {
+    "id": "photo-002",
+    "src": "/images/photos/online-milestone.jpg",
+    "w": 1600,
+    "h": 1000,
+    "tags": ["线上里程碑"],
+    "caption": "社群成员破 50K 粉丝庆祝会",
+    "takenAt": "2025-02-20"
+  },
+  {
+    "id": "photo-003",
+    "src": "/images/photos/community-lounge.jpg",
+    "w": 1400,
+    "h": 1050,
+    "tags": ["成员合影"],
+    "caption": "核心成员月度复盘合影",
+    "takenAt": "2025-01-28"
+  },
+  {
+    "id": "photo-004",
+    "src": "/images/photos/award-night.jpg",
+    "w": 1400,
+    "h": 933,
+    "tags": ["获奖", "媒体"],
+    "caption": "年度创作者之夜 · Panda Growth 获得“最佳写作社群”称号",
+    "takenAt": "2024-12-10"
+  },
+  {
+    "id": "photo-005",
+    "src": "/images/photos/studio-session.jpg",
+    "w": 1600,
+    "h": 1067,
+    "tags": ["线下活动"],
+    "caption": "录制写作模板工作坊的幕后花絮"
+  },
+  {
+    "id": "photo-006",
+    "src": "/images/photos/hotseat.jpg",
+    "w": 1500,
+    "h": 1000,
+    "tags": ["成员", "里程碑"],
+    "caption": "Hotseat 现场，成员分享 0-10K 经验"
+  },
+  {
+    "id": "photo-007",
+    "src": "/images/photos/retreat.jpg",
+    "w": 1500,
+    "h": 844,
+    "tags": ["线下活动", "成员合影"],
+    "caption": "年度创作者静修营 · 山野写作仪式",
+    "takenAt": "2024-11-02"
+  },
+  {
+    "id": "photo-008",
+    "src": "/images/photos/hybrid-meetup.jpg",
+    "w": 1400,
+    "h": 950,
+    "tags": ["线上里程碑", "成员"],
+    "caption": "全球线上 + 线下混合 Meetup"
+  }
+]

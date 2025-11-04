@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "cold-start-30-days",
+    "title": "30 天冷启动：从 0 到 1,200 粉丝",
+    "stage": "0-1k",
+    "strategies": ["reply framework", "daily ritual", "peer review"],
+    "timeline": "2025.01 - 2025.02",
+    "impact": { "followersDelta": 1200, "views": 98000 },
+    "steps": [
+      "建立回复素材库，聚焦 3 条主线话题",
+      "每日定时 2 次发布 + 3 次高质量回复",
+      "用 Notion Kanban 管理灵感与复盘"
+    ],
+    "pitfalls": [
+      "一开始追求完美排版导致延迟发布",
+      "缺少 CTA 导致关注转化低于 10%"
+    ],
+    "takeaways": [
+      "回复是冷启动时期的最高性价比渠道",
+      "坚持复盘留档，有助于识别可复制动作"
+    ],
+    "tags": ["cold start", "习惯", "复盘"]
+  },
+  {
+    "slug": "break-10k-gh",
+    "title": "破 10K：增长黑客的合作飞轮",
+    "stage": "10k-100k",
+    "strategies": ["collab", "lead magnet", "email follow-up"],
+    "timeline": "2024.11 - 2025.03",
+    "impact": { "followersDelta": 8900, "views": 420000, "revenue": 18500 },
+    "steps": [
+      "设计 4 个合作主题，搭配共创线程",
+      "合作伙伴发布后 12 小时内跟进直播复盘",
+      "引导订阅邮件 + 自动化 DM 送资料包"
+    ],
+    "pitfalls": [
+      "合作节奏过密导致质量波动",
+      "漏掉非英语受众的产品化方案"
+    ],
+    "takeaways": [
+      "合作要有统一品牌体验，最好有共同仪式",
+      "多语言内容能显著提高留存"
+    ],
+    "tags": ["co-marketing", "sop"]
+  },
+  {
+    "slug": "case-study-ads-automation",
+    "title": "自动化广告：1.2 万美元营收的组合拳",
+    "stage": "1k-10k",
+    "strategies": ["ads automation", "retargeting", "webinar"],
+    "timeline": "2025.02",
+    "impact": { "followersDelta": 2300, "views": 180000, "revenue": 12000 },
+    "steps": [
+      "使用自建脚本每天同步点赞与点击数据",
+      "针对暖受众投放 3 组轻量广告",
+      "直播拆解案例，附带限时升级 CTA"
+    ],
+    "pitfalls": ["脚本初期出现 API 限速问题", "直播 CTA 过复杂导致掉线"],
+    "takeaways": [
+      "自动化节省 70% 的手动校对时间",
+      "把广告当成提醒，而不是硬推销"
+    ],
+    "tags": ["automation", "ads", "webinar"]
+  },
+  {
+    "slug": "community-to-revenue",
+    "title": "社群转化：31 天内完成商业化验证",
+    "stage": "1k-10k",
+    "strategies": ["community", "offer ladder", "data wall"],
+    "timeline": "2025.01",
+    "impact": { "followersDelta": 1600, "views": 135000, "revenue": 6800 },
+    "steps": [
+      "用数据墙展示成员成果制造社会证明",
+      "设置分层产品阶梯，从 29 美元资料包到 499 美元内训",
+      "每周一次 AMA 收集需求并迭代产品"
+    ],
+    "pitfalls": [
+      "前期 onboarding 不完善，流失率 25%",
+      "定价策略一次性沟通过多导致观望"
+    ],
+    "takeaways": [
+      "社群运营需要可视化成果",
+      "产品阶梯帮助不同阶段的创作者快速找到定位"
+    ],
+    "tags": ["community", "monetization"]
+  },
+  {
+    "slug": "influencer-loop-raising",
+    "title": "Influencer Loop：合作转介绍系统",
+    "stage": "100k+",
+    "strategies": ["referral", "creator ops", "agency"],
+    "timeline": "2024.09 - 2025.01",
+    "impact": { "followersDelta": 42000, "views": 980000, "revenue": 74000 },
+    "steps": [
+      "搭建合作伙伴 CRM，标记内容风格与粉丝画像",
+      "引入“交换增长飞轮”：合作 -> 复盘 -> 联合 Offer",
+      "提供共创仪表板实时回传数据"
+    ],
+    "pitfalls": [
+      "过度依赖单一合作渠道的排期",
+      "缺少法律审核时，品牌风险上升"
+    ],
+    "takeaways": [
+      "合作成功的关键是不同品牌调性的共鸣点",
+      "数据透明是建立长期合作的基础"
+    ],
+    "tags": ["referral", "ops", "brand"]
+  },
+  {
+    "slug": "revive-dormant-account",
+    "title": "沉寂账号复苏：7 天重启计划",
+    "stage": "0-1k",
+    "strategies": ["account audit", "warm-up reply", "ritual"],
+    "timeline": "2025.03",
+    "impact": { "followersDelta": 540, "views": 52000 },
+    "steps": [
+      "分析历史数据，筛出高互动话题",
+      "设置 7 天热身计划，每日 3 条 reply + 1 条 micro-post",
+      "用“再上线宣言”建立仪式感"
+    ],
+    "pitfalls": ["首周 KPI 设定过高导致压力", "未提前缓存素材"],
+    "takeaways": [
+      "重启账号需先修复心态与节奏",
+      "公开承诺是稳定输出的催化剂"
+    ],
+    "tags": ["reset", "habit", "reply"]
+  }
+]

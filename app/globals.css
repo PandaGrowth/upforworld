@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark &));
+
+:root {
+  --brand: #0ea5e9;
+  --brand-foreground: #0b7285;
+  --background: #ffffff;
+  --foreground: #111827;
+  --muted: #f3f4f6;
+  --muted-foreground: #6b7280;
+  --border: #e5e7eb;
+  --radius: 1rem;
+  --shadow-lg: 0 20px 45px -20px rgba(14, 165, 233, 0.35);
+  --shadow-xl: 0 30px 60px -30px rgba(14, 165, 233, 0.45);
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html.dark {
+  --background: #020817;
+  --foreground: #e2e8f0;
+  --muted: rgba(148, 163, 184, 0.15);
+  --muted-foreground: #94a3b8;
+  --border: rgba(148, 163, 184, 0.3);
+  --shadow-lg: 0 18px 40px -22px rgba(14, 165, 233, 0.4);
+  --shadow-xl: 0 40px 70px -35px rgba(14, 165, 233, 0.55);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-border: var(--border);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --shadow-card: var(--shadow-lg);
+  --shadow-card-hover: var(--shadow-xl);
+  --radius-xl: var(--radius);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(
+      --font-geist-sans,
+      "SF Pro Display",
+      "Inter",
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif
+    );
+  }
+
+  ::selection {
+    background-color: color-mix(in srgb, var(--brand) 60%, transparent);
+    color: #ffffff;
+  }
+
+  a {
+    @apply text-foreground transition-colors duration-150;
+  }
+
+  a:hover {
+    color: color-mix(in srgb, var(--brand) 80%, var(--foreground) 20%);
+  }
+}
+
+@layer components {
+  .callout {
+    @apply my-6 flex gap-4 rounded-2xl border border-brand/30 bg-brand/10 p-5 text-sm leading-relaxed text-brand-foreground transition-all dark:border-brand/40 dark:bg-brand/10;
+  }
+
+  .callout[data-variant="warning"] {
+    @apply border-orange-400 bg-orange-100/20 text-orange-600 dark:border-orange-500 dark:bg-orange-500/10 dark:text-orange-200;
+  }
+
+  .callout[data-variant="tip"] {
+    @apply border-emerald-400 bg-emerald-100/20 text-emerald-600 dark:border-emerald-500 dark:bg-emerald-500/10 dark:text-emerald-200;
+  }
+
+  .step {
+    @apply relative rounded-2xl border border-border bg-background p-5 shadow-card;
+  }
+
+  .step::before {
+    content: attr(data-step);
+    @apply absolute -left-4 -top-4 inline-flex h-10 w-10 items-center justify-center rounded-full bg-brand text-base font-semibold text-white shadow-card;
+  }
+
+  .checklist {
+    @apply space-y-3;
+  }
+
+  .checklist-item {
+    @apply flex items-start gap-3 rounded-xl border border-border bg-muted/40 px-4 py-3 text-sm text-foreground;
+  }
+
+  .metric {
+    @apply flex items-baseline gap-3 rounded-2xl border border-brand/20 bg-brand/5 px-5 py-4 text-brand dark:bg-brand/10;
+  }
+
+  .tweet-embed {
+    @apply flex w-full justify-center overflow-hidden;
+  }
+
+  .tweet-embed blockquote.twitter-tweet {
+    margin: 0 auto !important;
+  }
+}

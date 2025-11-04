@@ -1,0 +1,50 @@
+[
+  {
+    "id": "testimonial-001",
+    "name": "王珊",
+    "role": "财经创作者 · 0 → 25K 粉丝",
+    "avatar": "/images/avatars/testimonial-wang.png",
+    "quote": "Panda Growth 给我的是结构化的写作体系，更重要的是每周的复盘仪式，让我知道自己为什么涨粉。",
+    "lang": "zh"
+  },
+  {
+    "id": "testimonial-002",
+    "name": "Aaron Blake",
+    "role": "DesignOps 顾问",
+    "avatar": "/images/avatars/testimonial-aaron.png",
+    "quote": "The playbooks here are battle-tested. I borrowed the outreach SOP and landed 3 retainer clients in 6 weeks.",
+    "lang": "en"
+  },
+  {
+    "id": "testimonial-003",
+    "name": "林一",
+    "role": "AI 工具作者",
+    "avatar": "/images/avatars/testimonial-lin.png",
+    "quote": "以前写作全靠灵感，现在有了洞察库、素材库和同伴审核，内容稳定多了。",
+    "lang": "zh"
+  },
+  {
+    "id": "testimonial-004",
+    "name": "Sophia Tran",
+    "role": "B2B SaaS Marketer",
+    "avatar": "/images/avatars/testimonial-sophia.png",
+    "quote": "Loved the accountability pod. It forced me to finish the \"boring\" follow-up threads that actually drove revenue.",
+    "lang": "en"
+  },
+  {
+    "id": "testimonial-005",
+    "name": "周凌",
+    "role": "创业者 · 破 10K",
+    "avatar": "/images/avatars/testimonial-zhou.png",
+    "quote": "把社群 SOP 用在我自己的产品上，转化效率直接翻倍。",
+    "lang": "zh"
+  },
+  {
+    "id": "testimonial-006",
+    "name": "Haruki Sato",
+    "role": "Community Builder",
+    "avatar": "/images/avatars/testimonial-haruki.png",
+    "quote": "Best part? Every playbook comes with metrics. You always know what \"good\" looks like.",
+    "lang": "en"
+  }
+]

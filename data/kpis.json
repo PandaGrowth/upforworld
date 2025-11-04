@@ -1,0 +1,26 @@
+[
+  {
+    "id": "members",
+    "label": "社群成员",
+    "value": "312",
+    "description": "覆盖 12 个国家 / 地区的创作者"
+  },
+  {
+    "id": "impressions",
+    "label": "累计展示量",
+    "value": "128M+",
+    "description": "成员推文总曝光（含合作）"
+  },
+  {
+    "id": "highlight-tweets",
+    "label": "优秀推文",
+    "value": "640",
+    "description": "入选精选库并复盘的推文数"
+  },
+  {
+    "id": "engagement",
+    "label": "平均互动率",
+    "value": "5.8%",
+    "description": "精选推文平均互动率较加入前提升 35%"
+  }
+]
